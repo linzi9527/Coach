@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             Intent intent=new Intent();
             intent.putExtra("show","I can fly");
-           // intent.setClass(MainActivity.this,DodActivity.class);
-           // MainActivity.this.startActivity(intent);
+            intent.setClass(MainActivity.this,DodActivity.class);
+            MainActivity.this.startActivity(intent);
            // Boss b=new Boss();
            // b.workOfBoss();
         }
